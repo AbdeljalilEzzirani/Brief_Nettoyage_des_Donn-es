@@ -1,0 +1,53 @@
+Data Info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 1465 entries, 0 to 1464
+Data columns (total 24 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   URL                1465 non-null   object 
+ 1   Title              1465 non-null   object 
+ 2   Localisation       1465 non-null   object 
+ 3   Price              1465 non-null   object 
+ 4   Chambre            1465 non-null   object 
+ 5   Salle de bain      1465 non-null   int64  
+ 6   Type               1465 non-null   object 
+ 7   Secteur            1465 non-null   object 
+ 8   Salons             1432 non-null   float64
+ 9   Surface habitable  1440 non-null   float64
+ 10  Âge du bien        1183 non-null   object 
+ 11  Étage              1459 non-null   object 
+ 12  Frais de syndic    536 non-null    float64
+ 13  Ascenseur          1465 non-null   object 
+ 14  Balcon             1465 non-null   object 
+ 15  Chauffage          1465 non-null   object 
+ 16  Climatisation      1465 non-null   object 
+ 17  Concierge          1465 non-null   object 
+ 18  Cuisine equipee    1465 non-null   object 
+ 19  Duplex             1465 non-null   object 
+ 20  Meuble             1465 non-null   object 
+ 21  Parking            1465 non-null   object 
+ 22  Securite           1465 non-null   object 
+ 23  Terrasse           1465 non-null   object 
+dtypes: float64(3), int64(1), object(20)
+memory usage: 274.8+ KB
+
+
+Data Head:
+URL,Title,Localisation,Price,Chambre,Salle de bain,Type,Secteur,Salons,Surface habitable,Âge du bien,Étage,Frais de syndic,Ascenseur,Balcon,Chauffage,Climatisation,Concierge,Cuisine equipee,Duplex,Meuble,Parking,Securite,Terrasse
+https://www.avito.ma/fr/quartier_de_l'oc%C3%A9an/appartements/RBA_HA_1054___Appartement_%C3%A0_vendre_%C3%A0_L_Ocean_54936810.htm,RBA-HA-1054 - Appartement à vendre à L'Ocean,Rabat,1 200 000 DH,1,1,"Appartements, à vendre",Quartier de l'Océan,,84.0,,5,,oui,oui,non,non,non,non,non,non,oui,non,oui
+https://www.avito.ma/fr/guich_oudaya/appartements/RBA_SKH_TE_1053___Appartement_%C3%A0_vendre_%C3%A0_Guich_O____54932352.htm,RBA-SKH-TE-1053 - Appartement à vendre à Guich O...,Rabat,1 750 000 DH,3,2,"Appartements, à vendre",Guich Oudaya,,,,2,,non,oui,non,non,non,non,non,non,non,non,oui
+https://www.avito.ma/fr/hay_mohammadi/appartements/Appartement_%C3%A0_vendre_63_m%C2%B2_%C3%A0_Agadir_55682805.htm,Appartement à vendre 63 m² à Agadir,Agadir,600 000 DH,2,1,"Appartements, à vendre",Hay Mohammadi,1.0,60.0,11-20 ans,3,,non,non,non,non,non,non,non,non,non,non,non
+https://www.avito.ma/fr/dar_bouazza/appartements/Appartement_%C3%A0_vendre_81_m%C2%B2_%C3%A0_Dar_Bouazza_55714260.htm,Appartement à vendre 81 m² à Dar Bouazza,Dar Bouazza,1 350 000 DH,2,2,"Appartements, à vendre",Toute la ville,1.0,81.0,Neuf,1,,non,non,non,non,non,non,non,non,non,non,non
+https://www.avito.ma/fr/gu%C3%A9liz/appartements/Appartement_81_m%C2%B2_avec_piscine_a_gueliz_33066805.htm,Appartement 81 m² avec piscine a gueliz,Marrakech,769 500 DH,2,1,"Appartements, à vendre",Guéliz,1.0,81.0,,3,300.0,oui,non,non,non,non,non,non,non,oui,non,non
+
+
+Data Description:
+,Salle de bain,Salons,Surface habitable,Frais de syndic
+count,1465.0,1432.0,1440.0,536.0
+mean,2.02320819112628,1.238826815642458,96.69097222222223,8052.272388059701
+std,7.409251108955672,0.5547087229625386,84.2334997241244,75242.52165658411
+min,0.0,0.0,1.0,1.0
+25%,1.0,1.0,65.0,100.0
+50%,1.0,1.0,84.0,150.0
+75%,2.0,1.0,110.0,250.0
+max,157.0,8.0,2111.0,950000.0
